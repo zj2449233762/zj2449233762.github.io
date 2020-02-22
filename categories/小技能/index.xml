@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>小技能 on Optimistic的主页</title>
+    <link>https://zj2449233762.github.io/categories/%E5%B0%8F%E6%8A%80%E8%83%BD/</link>
+    <description>Recent content in 小技能 on Optimistic的主页</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://zj2449233762.github.io/categories/%E5%B0%8F%E6%8A%80%E8%83%BD/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>win10安装从入门到入土</title>
+      <link>https://zj2449233762.github.io/blog/win10/</link>
+      <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://zj2449233762.github.io/blog/win10/</guid>
+      <description>第一步 准备事项 一台能运行windows的电脑💻 、一个容量8G或以上的U盘、U盘引导盘制作工具（我这里推荐rufus,点此下载） 、win10系统镜像（可以去MSDN官网复制ed2k下载链接使用迅雷下载）。
+第二步  将U盘插在能运行的电脑上，打开rufus。界面如图。
+在设备栏选择自己的U盘，并选择所要安装的win10镜像，其他选项如图所示即可。
+待下方显示准备就绪时，点击开始来制作U盘引导盘。
+等待之余可以喝一杯咖啡☕️或者吃点零食🤪
+制作完成之后就可以将U盘拔下啦。
+第三步 现在已经进入第三步了。
+需要将刚刚制作好的U盘引导盘插在需要安装系统的电脑上。
+开机时点按（疯狂按🤣）F12键，以进入启动项选择界面。
+(可能不同的电脑会有一些差异，最好还是百度一下自己的电脑是哪个键)
+选择刚刚制作好的U盘启动，如果成功开机将会是这样的界面。  选择好后点击下一步，选择自定义安装。
+选择一个磁盘安装系统；也可以在这里将磁盘合并，只要将磁盘删除，然后会合成一个未分配的空间，根据自己的需求去分配。
+下一步之后会提示让你输入激活码，直接点击 我没有激活码即可，如果后面想要激活系统可以购买正版激活码，或者采用不推荐的方式激活🤐（放在文末）
+开始安装后只需静静地等待，可以喝一杯咖啡或者吃点零食🤪
+之后的安装只要按着操作一直到进入系统就可以了。
+有一种不推荐的kms激活方式大家就 不 要 使 用 了 🤥
+最后希望大家能够天天开心哦😉，也希望这次疫情能早点结束😷 </description>
+    </item>
+    
+  </channel>
+</rss>
