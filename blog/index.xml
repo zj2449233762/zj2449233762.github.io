@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Optimistic的主页</title>
-    <link>https://optimistic.coding.me/blog/</link>
+    <link>https://zj2449233762.github.io/blog/</link>
     <description>Recent content in Blog on Optimistic的主页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://optimistic.coding.me/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zj2449233762.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>win10安装从入门到入土</title>
-      <link>https://optimistic.coding.me/blog/win10/</link>
+      <link>https://zj2449233762.github.io/blog/win10/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://optimistic.coding.me/blog/win10/</guid>
+      <guid>https://zj2449233762.github.io/blog/win10/</guid>
       <description>第一步 准备事项 一台能运行windows的电脑💻 、一个容量8G或以上的U盘、U盘引导盘制作工具（我这里推荐rufus,点此下载） 、win10系统镜像（可以去MSDN官网复制ed2k下载链接使用迅雷下载）。
 第二步  将U盘插在能运行的电脑上，打开rufus。界面如图。
 在设备栏选择自己的U盘，并选择所要安装的win10镜像，其他选项如图所示即可。
