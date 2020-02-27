@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Itemized on Optimistic的主页</title>
-    <link>https://optimistic.coding.me/itemized/</link>
+    <link>http://d957ld.coding-pages.com/itemized/</link>
     <description>Recent content in Itemized on Optimistic的主页</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 22 Feb 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://optimistic.coding.me/itemized/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://d957ld.coding-pages.com/itemized/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>计划 NO.1</title>
-      <link>https://optimistic.coding.me/itemized/item1/</link>
+      <link>http://d957ld.coding-pages.com/itemized/item1/</link>
       <pubDate>Sat, 22 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://optimistic.coding.me/itemized/item1/</guid>
+      <guid>http://d957ld.coding-pages.com/itemized/item1/</guid>
       <description>记录 1 2020年2月22日&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;150斤🤫（也许不准，身边没有称）</description>
     </item>
     
