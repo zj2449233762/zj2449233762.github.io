@@ -10,6 +10,8 @@
 
 <html>
     <head>
+        
+        <link rel="stylesheet" href="http://optimistic2001.top/css/search/search.css" />
         <script type="application/ld+json">
     {
         "@context" : "http://schema.org",
@@ -167,14 +169,14 @@
         <ul>
             
             <li class="search">
-                <a class="fa-search" href="#search">搜索🔍</a>
-                <form id="search" method="get" action="//google.com/search">
-                    <input type="text" name="q" placeholder="Search" />
-                    <input type="hidden" name="as_sitesearch" value="http://optimistic2001.top">
-                </form>
+				
+				
+				
+                <a class="fa-search" href="#menu" onclick="clearSearchStr();">站内搜索</a>
             </li>
+			
             <li class="menu">
-                <a class="fa-bars" href="#menu">菜单</a>
+                <a class="fa-bars" href="#menu" onclick="clearSearchStr();">Menu</a>
             </li>
         </ul>
     </nav>
@@ -184,11 +186,37 @@
 <section id="menu">
 
     
-        <section>
-            <form class="search" method="get" action="//google.com/search">
-                <input type="text" name="q" placeholder="Search" />
-                <input type="hidden" name="as_sitesearch" value="http://optimistic2001.top">
-            </form>
+		
+		<section>
+            
+            <h3>站内搜索</h3> 
+<input id="search-input" type="search" name="name" autofocus="autofocus"
+    class="aa-input-search" placeholder="请输入要搜索的关键字/词" autocomplete="off"/>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/algoliasearch.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/autocomplete.min.js"></script>
+<script>
+    
+    function clearSearchStr() {
+        document.getElementById("search-input").value = "";
+    }
+    
+    var client = algoliasearch("TXHOSE9FC4", "98a023346d2127bfde0cae8534ccbb28");
+    
+    var index = client.initIndex('hello1');
+    
+    autocomplete('#search-input',
+    { hint: false}, {
+        source: autocomplete.sources.hits(index, {hitsPerPage: 8}),
+        displayKey: 'name',
+        templates: {
+            suggestion: function(suggestion) {
+                
+                return '<span>' + '<a href="http://optimistic2001.top/' + suggestion.uri + '">' +
+                suggestion._highlightResult.title.value + '</a></span>';
+            }
+        }
+    });
+</script>
         </section>
 
     
@@ -242,7 +270,7 @@
         <section class="recent-posts">
             <div class="mini-posts">
                 <header>
-                    <h3>最 新 文 章</h3>
+                    <h3>最新文章</h3>
                 </header>
                 
 
@@ -257,7 +285,7 @@
                                 
                                 <time class="published" datetime=
                                     '2020-02-22'>
-                                    2020年 2月 22日</time>
+                                    February 22, 2020</time>
                             </header>
                             
     
@@ -295,7 +323,6 @@
     
         
 </section>
-
 
 <div id="main">
   <article class="post">
